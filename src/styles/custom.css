@@ -1,0 +1,104 @@
+/* header */
+.header {
+    background-color: #efefef;
+}
+.nav {
+    margin-right: -35px;
+    margin-left: -35px;
+}
+.dropdown-toggle {
+    border: 1px solid #dedede;
+}
+.filters svg {
+    margin: -4px 20px 0 0;
+}
+#search-button {
+    -webkit-appearance: none;
+    border: none;
+    background: none;
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+}
+#search-button svg {
+    height: 100%;
+    width: 100%;
+}
+.selected-day svg {
+    width: 27px;
+    height: 27px;
+    padding-bottom: 2px;
+}
+.current-days {
+    background-color: #dc3545;
+    color: #efefef;
+    padding: 0 1rem;
+    border-radius: 2rem;
+}
+.current-days p {
+    margin: 0;
+    line-height: 1.8rem;
+}
+
+
+/* cards */
+.cards {
+    margin-right: -35px;
+    margin-left: -35px;
+}
+.card.campaign-card {
+    flex-basis: 275px;
+    max-width: 275px;
+    overflow: hidden;
+}
+.card-img-top {
+    height: 175px;
+    overflow: hidden;
+    position: relative;
+}
+.card-img-top img {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.campaign-card .card-body small {
+    opacity: 0.5;
+}
+.saved:after {
+    content: '';
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    margin-left: 8px;
+    border-radius: 1rem;
+    background-color: #ff791a;
+}
+.bar-saved {
+    height: 8px;
+    background: #efefef;
+}
+.campaign-card ul {
+    background: #efefef;
+}
+.campaign-card li small {
+    vertical-align: bottom;
+    opacity: 0.7;
+}
+.campaign-card li svg {
+    margin-right: 5px;
+}
+@media all and (max-width: 1199px) {
+    .cards {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .nav {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
